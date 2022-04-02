@@ -5,8 +5,8 @@ function Head() {
   return (
     <div className="head-parent d-flex">
       <div className="d-flex be-div">
-        <p className="be text-primary">Be</p>
-        <p className="theme-p">theme</p>
+        <p className="be text-primary">Coding</p>
+        <p className="theme-p">Resources</p>
       </div>
       <div className="d-flex second-head-div">
         <p className="second-div-p text-primary">Home</p>
@@ -18,6 +18,8 @@ function Head() {
         <p className="second-div-p">About</p>
         <div className="line"></div>
         <p className="second-div-p">Contact</p>
+        <div className="line"></div>
+        <p className="second-div-p" data-bs-toggle="modal" data-bs-target="#logInModal">Login</p>
       </div>
 
       <div className="third-div">
