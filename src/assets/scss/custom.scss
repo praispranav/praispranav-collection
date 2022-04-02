@@ -39,6 +39,7 @@
   margin-top: -10px;
   margin-left: 20px;
   width: 1px;
+  
 }
 .third-div {
   margin-top: 25px;
@@ -255,4 +256,22 @@ $color:#0089f7;
 }
 .hove-p{
   padding-left: 10px;
+}
+.cross{
+  font-size: 23px;
+}
+.auth-input{
+border: none;
+background-color: rgba(219, 218, 218, 0.193);
+margin-left: 8px;
+margin-right: 10px;
+}
+
+.madal-p{
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.login-btn{
+  font-size: 20px;
+  font-weight: 600;
 }
