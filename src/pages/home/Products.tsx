@@ -14,7 +14,8 @@ import {HiOutlineUsers} from "react-icons/hi"
 export default function Products() {
   return (
     <div className="bg-gradient-radial ">
-      <div className="container">
+      <div className="container d-flex justify-content-center aline-item-center ">
+          <div>
         <div className="text-center pt-5">
           <p className="text-dark all pt-5 ">THAT'S NOT ALL</p>
         </div>
@@ -22,27 +23,27 @@ export default function Products() {
           <h1 className="text-light product-h1">Learn more about BeTheme</h1>
         </div>
         <div className="divider"></div>
-        <div className="row mt-5 parent-product-div ms-5">
+        <div className="row mt-5 parent-product-div ">
           <div className="col-3 text-light  colFirst">
             <div className="d-flex hove-p hove ">
               <div className="icon-font ">
                 <RiFileWord2Line />
               </div>
-              <p className="text-light ms-3 mt-4 ">Pre-build website</p>
+              <p className="text-light ms-3 mt-2 ">Pre-build website</p>
             </div>
 
             <div className="d-flex mt-3 hove-p hove ">
               <div className="icon-font">
                 <FaRegLightbulb />
               </div>
-              <p className="text-light ms-3 mt-4">Care features </p>
+              <p className="text-light ms-3 mt-2">Care features </p>
             </div>
 
             <div className="d-flex mt-3 hove  hove-p ">
               <div className="icon-font ">
                 <BsQuestionLg />
               </div>
-              <p className="text-light ms-3  mt-4 ">Tutorial and support </p>
+              <p className="text-light ms-3  mt-2">Tutorial and support </p>
             </div>
           </div>
           <div className="col-3 ms-5 colFirst">
@@ -50,21 +51,21 @@ export default function Products() {
               <div className="icon-font ">
                 <IoSettingsOutline />
               </div>
-              <p className="text-light ms-3 mt-3 ">Mufin builder</p>
+              <p className="text-light ms-3 mt-2">Mufin builder</p>
             </div>
 
             <div className="d-flex mt-3 hove-p hove ">
               <div className="icon-font">
                 <GiForwardField />
               </div>
-              <p className="text-light ms-3 mt-4">Item & shortcode</p>
+              <p className="text-light ms-3 mt-2">Item & shortcode</p>
             </div>
 
             <div className="d-flex mt-3 hove hove-p ">
               <div className="icon-font ">
                 <BiMessageRounded />
               </div>
-              <p className="text-light ms-3 mt-4 ">Testimonial</p>
+              <p className="text-light ms-3 mt-3 ">Testimonial</p>
             </div>
           </div>
           <div className="col-3 ms-5 colFirst">
@@ -91,6 +92,7 @@ export default function Products() {
           </div>
          
         </div>
+      </div>
       </div>
       <div className="d-flex justify-content-center aline-item-centre mt-5 pb-5">
           <button className="btn btn-success">

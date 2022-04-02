@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="main-foot">
       <div className="container ">
-        <div className="d-flex f-f-div pt-5">
+        <div className="d-flex justify-content-center align-item-center pt-5">
           <p className="text-secondary  fontb"> Purchase</p>
           <p className="text-primary ms-2 fontb"> Coding</p>
           <p className="fontb text-light">Resources</p>
