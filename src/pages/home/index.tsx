@@ -4,7 +4,7 @@ import Head from "../../components/common/Header";
 import MidCon from "./wall";
 import ThirdD from "./third";
 import FourthD from "./fourth";
-import Footer from "./footer";
+import Footer from "../../components/common/footer";
 import Products from "./Products";
 import AuthModal from "./AuthModal";
 
