@@ -4,6 +4,7 @@ import HomePage from "../pages/home";
 import Illustration from "../pages/illustration";
 import ProfilePage from "../pages/profile";
 import Blog from "../pages/blog";
+import AboutScreen from "../pages/about";
 import UploadIllustrator from "../pages/admin/uploadIllustration";
 import ManageBlog from "../pages/admin/Blog";
 import FormTesting from "../pages/test/formTesting";
@@ -14,6 +15,7 @@ function Navigator() {
          <Route path="/" element={<HomePage />} />
          <Route path="/profile" element={<ProfilePage />} />
          <Route path="/blog" element={<Blog />} />
+         <Route path="/about" element={<AboutScreen />} />
          <Route path="/admin/upload-theme" element={<ThemeUpload />} />
          <Route path="/admin/upload-illustrator" element={<UploadIllustrator />} />
          <Route path="/illustration" element={<Illustration />} />
