@@ -6,7 +6,9 @@ import ThirdD from "./third";
 import FourthD from "./fourth";
 import Footer from "../../components/common/footer";
 import Products from "./Products";
-import AuthModal from "./AuthModal";
+import LoginModal from "./login";
+import SignInModal from "./signup";
+
 
 function Ribbon(){
   const imgUrls = [
@@ -60,7 +62,8 @@ export default function HomePage() {
       <BottomRibbon />
       <Products />
       <Footer />
-      <AuthModal />
+      <LoginModal />
+      <SignInModal />
     </>
   );
 }
