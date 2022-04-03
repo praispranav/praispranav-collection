@@ -5,7 +5,8 @@ import Illustration from "../pages/illustration";
 import ProfilePage from "../pages/profile";
 import Blog from "../pages/blog";
 import UploadIllustrator from "../pages/admin/uploadIllustration";
-import ManageBlog from "../pages/admin/manageBlog";
+import ManageBlog from "../pages/admin/Blog";
+import FormTesting from "../pages/test/formTesting";
 
 function Navigator() {
   return (
@@ -17,6 +18,7 @@ function Navigator() {
          <Route path="/admin/upload-illustrator" element={<UploadIllustrator />} />
          <Route path="/illustration" element={<Illustration />} />
          <Route path="/admin/manage-blog" element={<ManageBlog />} />
+         <Route path="/test" element={<FormTesting />} />
      </Routes>
   );
 }
